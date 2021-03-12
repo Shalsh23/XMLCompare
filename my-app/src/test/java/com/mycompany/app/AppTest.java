@@ -31,8 +31,8 @@ public class AppTest
 //        ClassLoader classLoader = getClass().getClassLoader();
 //        String oldFile = classLoader.getResource("CTD_chem_gene_ixns_structured.xml").getPath();
 //        String newFile = classLoader.getResource("CTD_chem_gene_ixns_structured.xml").getPath();
-        File oldFile = new File("/Users/shalkishrivastava/renci/XMLCompare/my-app/CTD_chem_gene_ixns_structured.xml");
-        File newFile = new File("/Users/shalkishrivastava/renci/XMLCompare/my-app/CTD_chem_gene_ixns_structured.xml");
+        File oldFile = new File("/scratch/spshriva/XMLCompare/my-app/CTD_chem_gene_ixns_structured.xml");
+        File newFile = new File("/scratch/spshriva/XMLCompare/my-app/CTD_chem_gene_ixns_structured.xml");
         assertThat(oldFile, CompareMatcher.isIdenticalTo(newFile));
     }
 }
