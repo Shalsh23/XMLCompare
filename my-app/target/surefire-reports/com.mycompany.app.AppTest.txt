@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.app.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.157 s <<< FAILURE! - in com.mycompany.app.AppTest
+given2XMLS_whenIdentical_thenCorrect  Time elapsed: 0.152 s  <<< ERROR!
+org.xmlunit.XMLUnitException: Caught exception during comparison
+	at com.mycompany.app.AppTest.given2XMLS_whenIdentical_thenCorrect(AppTest.java:34)
+Caused by: org.xmlunit.XMLUnitException: Content is not allowed in prolog.
+	at com.mycompany.app.AppTest.given2XMLS_whenIdentical_thenCorrect(AppTest.java:34)
+Caused by: org.xml.sax.SAXParseException: Content is not allowed in prolog.
+	at com.mycompany.app.AppTest.given2XMLS_whenIdentical_thenCorrect(AppTest.java:34)
+
