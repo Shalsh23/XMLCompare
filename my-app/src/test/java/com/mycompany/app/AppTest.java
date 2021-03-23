@@ -15,6 +15,7 @@ import org.xmlunit.matchers.CompareMatcher;
 
 /**
  * Unit test for simple App.
+ * Reference: https://www.baeldung.com/xmlunit2
  */
 public class AppTest 
 {
